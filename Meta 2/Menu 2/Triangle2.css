@@ -1,0 +1,76 @@
+body {
+    margin:20px;
+    background-color: black;
+}
+
+p {
+    font-family: 'Consolas', monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 5px;
+    transform:rotate(20deg);
+}
+
+/* triangle */
+div {
+    width: 0;
+    height: 0;
+    margin-left: 20%;  /*positioning the triangle */
+    margin-top: 25px;   /*positioning the triangle */
+    transition: 3s ease;
+}
+
+.class1 {
+    transform:rotate(-20deg);
+    border-left: 450px solid transparent;
+    border-right: 450px solid transparent;
+    border-bottom: 550px solid white;
+}
+
+.class2 {
+    transform:rotate(110deg);
+    border-left: 350px solid transparent;
+    border-right: 400px solid transparent;
+    border-bottom: 700px solid white;
+    margin-top: 120px;   /*positioning the triangle */
+    margin-left: 30%;  /*positioning the triangle */
+}
+
+.class3 {
+    transform:rotate(210deg);
+    border-left: 650px solid transparent;
+    border-right: 350px solid transparent;
+    border-bottom: 450px solid white;
+    margin-top: 300px;   /*positioning the triangle */
+}
+
+/* images */
+img {
+    transform:rotate(20deg);
+}
+
+.P5 {
+    height: 120px;
+    width: 170px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.P6 {
+    height: 120px;
+    width: 150px;
+    position: absolute;
+    top: 440px;
+    left: 260px;
+}
+
+.P7 {
+    height: 120px;
+    width: 160px;
+    position: absolute;
+    top: 450px;
+    right: 210px;
+}
+

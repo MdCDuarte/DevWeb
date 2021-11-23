@@ -1,0 +1,130 @@
+
+
+
+
+
+* {
+   display:grid;
+    text-align: center;
+    color: #fff;
+    font-family: 'Consolas', monospace;
+    font-size: medium;
+    letter-spacing: 0.08em;
+    background: black;
+
+}
+.grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto ;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+
+}
+
+
+
+.about{
+    display: inline;
+
+    justify-content: end;
+    align-items: end;
+
+}
+
+
+
+.logo {
+    display:flex;
+    width: 200px;
+    height:auto;
+    position: relative;
+    justify-items: start;
+    justify-content: start;
+    grid-row-start: R1;
+    grid-column-start: col-B;}
+
+.logo img{
+    width:65%;
+    height:auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+.box01 {
+    display:grid;
+    /*grid-row-start: R 4;
+    grid-column-start: col-B 1;*/
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    transition: width 2s, transform 2s
+}
+
+.box02{
+    display:grid;
+    grid-row-start: R 2;
+    grid-column-start: col-A 2;
+transition: width 2s, transform 2s;}
+
+.box03 {
+    display:grid;
+    grid-row-start: R 5;
+    grid-column-start: col-B 2;
+transition: width 2s, transform 2s;}
+
+
+.triangle1{
+    width: 300px;
+    justify-content: start;
+    background: rgba(0, 0, 0, 0.45);
+    height: 300px;
+    vertical-align: middle;
+    top: 50%;
+    justify-items: normal;
+
+
+}
+.triangle2{
+    width:300px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.45);
+    height: 300px;
+    vertical-align: top;
+    top: 50%;
+    justify-items: start;
+}
+.triangle3{
+    width:300px;
+    justify-content: end;
+    background: rgba(0, 0, 0, 0.45);
+    height: 300px;
+    vertical-align:bottom;
+    top: 50%;
+    justify-items: start;
+}
+
+.box01:hover {
+    /*background: url("Images/Motion1.png") no-repeat;*/
+    transform: rotate(360deg);
+
+}
+.box02:hover {
+    /*background: url("Images/Motion1.png") no-repeat;*/
+    transform: rotate(-360deg);
+
+}
+.box03:hover {
+    /*background: url("Images/Motion1.png") no-repeat;*/
+    transform: rotate(360deg);
+
+}
+
+
+
